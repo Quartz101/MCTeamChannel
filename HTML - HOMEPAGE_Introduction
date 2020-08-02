@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+
+    
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #89D5D2;
+}
+
+.topnav a {
+  float: left;
+  color: #111111;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #89D5D2;
+  color: #89D5D2;
+}
+
+.topnav a.active {
+  background-color: #89D5D2;
+  color: #111111;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+    <b><a class="active" href="#home">Home Page</a><b/>
+  <a href="#news">Links for Individuals and investors</a>
+  <a href="#contact">Media</a>
+  <a href="#about">Facts on World Hunger</a>
+  <a href="#about">Covid19 and Hunger</a>
+</div>
+
+<p></p>
+<div style="padding-left:16px">
+  
+   
+      
+      <h4>The MC_Hackers Hack for Sustainable Development Goal #2 Zero Hunger</h4>
+	  
+<picture>
+  <source media="(min-width:2050px)" srcset="C:\Users\CourtneyDubbCarGet\Desktop\mc.JPG">
+  <source media="(min-width:765px)" srcset="C:\Users\CourtneyDubbCarGet\Desktop\mc.JPG">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture><picture>
+  <source media="(min-width:2050px)" srcset="C:\Users\CourtneyDubbCarGet\Desktop\q.JPG">
+  <source media="(min-width:765px)" srcset="C:\Users\CourtneyDubbCarGet\Desktop\q.JPG">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+
+<p></p>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/02SZbDJM8dw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/iteCytv0RqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  
+	 <footer>
+  <p>By Maxine Hays and Courtney Dubb <br>
+ 
+</footer>
+
+
+
+</div>
+
+</body>
+</html>
