@@ -3,7 +3,7 @@ var controlElement = 3;
 
 function DoSomethingGood(){
   console.log("I'm fun");
-  var canvas= document.getElementById("canvas");
+  var canvas= document.getElementById("can1");
   var ctx = canvas.getContext("2d");
   if (controlElement == 2) {
     var img = document.getElementById("virus1");
@@ -46,7 +46,7 @@ function DoSomethingGood(){
 
 function DoSomethingBad(){
   console.log("I'm naughty");
-  var canvas= document.getElementById("canvas");
+  var canvas= document.getElementById("can1");
   var ctx = canvas.getContext("2d");
   if (controlElement == 0) {
     var img = document.getElementById("virus1");
@@ -87,7 +87,7 @@ function DoSomethingBad(){
 
 function randomVirus() {
   console.log("Random Virus");
-  var canvas= document.getElementById("canvas");
+  var canvas= document.getElementById("can1");
   var ctx = canvas.getContext("2d");
   controlElement = Math.floor(Math.random() * 7);
   console.log(controlElement);

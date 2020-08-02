@@ -1,16 +1,63 @@
 <!DOCTYPE html>
 <html lang="en" >
+<html>
+<body>
+<head>
+
+    
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #89D5D2;
+}
+
+.topnav a {
+  float: left;
+  color: #111111;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #89D5D2;
+  color: #89D5D2;
+}
+
+.topnav a.active {
+  background-color: #89D5D2;
+  color: #111111;
+}
+
+</style>
+
   <style>
-canvas {
+#can1 {
   border-style: solid;
   border-color: darkblue;
   height: 200px;
   width: 300px;
   border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#acti {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
 }
 input {
   border: 2px solid darkblue;
   border-radius: 10px;
+  
 }
 #noDisplay {
   display: none;
@@ -21,20 +68,28 @@ input {
 }
 
   </style>
-  <head>
+  
+<body>
+
+<div class="topnav">
+    <b><a class="active" href="#home">Home Page</a><b/>
+  <a href="#news">Links for Individuals and investors</a>
+  <a href="#contact">Media</a>
+  <a href="#about">Facts on World Hunger</a>
+  <a href="#about">Covid19 and Hunger</a>
+</div>
+<head>
   </head>
   <body onpageshow="randomVirus()">
     <title>GirlCode Hackathon ENtry 2020</title>
     <script type="text/javascript" src="MiniGame.js"></script>
     
     <div class = "miniGame">
-      <h1> Mini Game </h1>
-      <p id="mini"> <h3>Corona Virus Mini Game</h3>
-      <h5>The Evil Little Corona Virus is trying to grow! It's up to you to choose the right actions to stop him from growing into a Big Scary Virus. </h5>      
-      <canvas id="canvas"> </canvas> 
-      <label for="canvas">Evil Little Corona Virus</label>
-      <label for="actions"><u>Actions</u></label><br>
-        <aside id="actions">
+	
+      
+      <h5 style="text-align: center;">The Evil Little Corona Virus is trying to grow! It's up to you to choose the right actions to stop him from growing into a Big Scary Virus. </h5>      
+      <canvas id="can1"> </canvas> 
+        <p id="acti">
           <input type="image" id="aa" src="images/FaceMask.jpg" width="100px" height="75px" onclick="DoSomethingGood();"/>
           <input type="image" id="bb" src="images/Hugs.jpg" width="100px" height="75px" onclick="DoSomethingBad();"/>
           <input type="image" id="cc" src="images/WasHands.jpg" width="100px" height="75px" onclick="DoSomethingGood();" /><br>
@@ -44,7 +99,7 @@ input {
           <input type="image" src="images/Sanitizing.jpg" width="100px" height="75px" onclick="DoSomethingGood();" />
           <input type="image" src="images/Waving.jpg" width="100px" height="75px" onclick="DoSomethingGood();" />
           <input type="image" src="images/LickTheFloor.jpg" width="100px" height="75px" onclick="DoSomethingBad();" />         
-        </aside>
+        </p>
         <p id="noDisplay">
           <img src="images/CoronaVirus0.jpg" alt="Evil Corona Virus" width="100px" height="75px" id="virus0"/>
           <img src="images/CoronaVirus1.jpg" alt="Evil Corona Virus" width="100px" height="75px" id="virus1"/>
@@ -54,21 +109,25 @@ input {
           <img src="images/CoronaVirus5.jpg" alt="Evil Corona Virus" width="100px" height="75px" id="virus5"/>
           <img src="images/CoronaVirus6.jpg" alt="Evil Corona Virus" width="100px" height="75px" id="virus6"/>
         </p> 
-      </p>
     </div>
+</head>
 
-    <div class="charityList">
-      <h1> List of Charities </h1>
-      
-      <a href="https://www.forgood.co.za/"><img src="images/forgood-logo-black-200x100.jpg" width="200px" /> <br>forgood</a>: This is a great site if you don't know which charity you can or want to donate to. <br>
-      <a href="https://acfs.org.za/"><img src="images/ACFS.jpg" width="200px" /> <br>ACFS Community Education and Feeding Scheme</a><br>
-      <a href="https://www.ladlesoflove.org.za/"><img src="images/ladelsoflove.jpg" width="200px" /> <br>Ladles of Love</a><br>
-      <a href="https://www.fflsa.org/"><img src="images/FoodForLife.jpg" width="200px" /> <br>FOOD FOR LIFE</a><br>
-      <a href="https://www.siyabongaafrica.org.za/"><img src="images/SiyaAfri.jpg" width="200px" /><br>Siyabonga Africa</a><br>
-      <a href="http://rahafrica.org/"><img src="images/RiseAgainstHunger1.jpg" width="200px" /><br>Rise Against Hunger Africa</a><br>
-      <a href="https://www.thelunchboxfund.org/"><img src="images/TheLunchboxFund.jpg" width="200px" /><br>The Lunchbox Fund</a><br>
-      <a href="https://foodforwardsa.org/"><img src="images/Food.jpg" width="200px" /><br>FoodForward SA</a><br>
-    </div>
+<p></p>
+<div >
+  
+  
 
-  </body>
+</div>
+
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+   
