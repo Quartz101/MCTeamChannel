@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+
+    
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #89D5D2;
+}
+
+.topnav a {
+  float: left;
+  color: #111111;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #e5f0fc;
+  color: #e5f0fc;
+}
+
+.topnav a.active {
+  background-color: #89D5D2;
+  color: #111111;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+    <b><a class="active" href="#home">Home Page</a><b/>
+  <a href="#news">Links for Individuals and investors</a>
+  <a href="#contact">Media</a>
+  <a href="#about">Facts on World Hunger</a>
+  <a href="#about">Covid19 and Hunger</a>
+</div>
+
+<p></p>
+
+<h1>Facts on World Hunger</h1>
+<h3>As part of our project, we have included some facts, figures and statistics about world hunger</h3>
+
+<br>
+
+
+<picture>
+  <source media="(min-width:3050px)" srcset="C:\Users\CourtneyDubbCarGet\Desktop\ex.JPG">
+  <source media="(min-width:165px)" srcset="C:\Users\CourtneyDubbCarGet\Desktop\ex.JPG">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+<picture>
+  <source media="(min-width:3050px)" srcset="C:\Users\CourtneyDubbCarGet\Desktop\agri1.JPG
+">
+  <source media="(min-width:165px)" srcset="C:\Users\CourtneyDubbCarGet\Desktop\agri1.JPG
+">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+<br>
+
+
+<picture>
+  <source media="(min-width:3050px)" srcset="C:\Users\CourtneyDubbCarGet\Desktop\Capture.JPG
+">
+  <source media="(min-width:165px)" srcset="C:\Users\CourtneyDubbCarGet\Desktop\Capture.JPG
+">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+<picture>
+  <source media="(min-width:3050px)" srcset="C:\Users\CourtneyDubbCarGet\Desktop\quotehub.JPG
+">
+  <source media="(min-width:165px)" srcset="C:\Users\CourtneyDubbCarGet\Desktop\quotehub.JPG
+">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+
+</body>
+</html>
