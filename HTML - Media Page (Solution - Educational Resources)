@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+
+    
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #89D5D2;
+}
+
+.topnav a {
+  float: left;
+  color: #111111;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #e5f0fc;
+  color: #e5f0fc;
+}
+
+.topnav a.active {
+  background-color: #89D5D2;
+  color: #111111;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+    <b><a class="active" href="#home">Home Page</a><b/>
+  <a href="#news">Links for Individuals and investors</a>
+  <a href="#contact">Media</a>
+  <a href="#about">Facts on World Hunger</a>
+  <a href="#about">Covid19 and Hunger</a>
+</div>
+
+<p></p>
+<p></P>
+<br>
+<br>
+<br>
+<h1>Hello, welcome to our media page.</h1>
+<h3> here you will find educational resources on Covid19,good hygiene practices and information on the UN Sustainable Development Goals. </h3>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<div style="padding-left:16px">
+  
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jb7K4aBdSpE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/iteCytv0RqY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/XFO-e-eX4uQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	   <p></p>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/OLJXbi3Fc5Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/DeUdtWPjwNs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/MVvVTDhGqaA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  <p></p>
+	  <iframe width="560" height="315" src="https://www.youtube.com/embed/CiiJEUBwves" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5G0ndS3uRdo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5_hLuEui6ww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>hello</footer>
+
+</body>
+</html>
