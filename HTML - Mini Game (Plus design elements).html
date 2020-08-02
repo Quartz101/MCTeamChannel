@@ -44,15 +44,6 @@ body {
   height: 200px;
   width: 300px;
   border-radius: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-#acti {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align:center;
 }
 input {
   border: 2px solid darkblue;
@@ -66,6 +57,24 @@ input {
 .charityList {
   margin-left: 30px;
 }
+#mainCan {
+  height: 400px;
+  width: 200px;
+  border-style: solid;
+  border-color: darkblue;
+  border-radius: 10px;
+  
+}
+#issueCan {
+  height: 200px;
+  width: 300px;
+  border-style: solid;
+  border-color: darkblue;
+  border-radius: 10px;
+}
+img {
+  display: none;
+}
 
   </style>
   
@@ -75,20 +84,19 @@ input {
     <b><a class="active" href="HTML - HOMEPAGE_Introduction.html">Home Page</a><b/>
   <a href="HTML - Linked Database (Solution).html">Links for Individuals and investors</a>
   <a href="HTML - Media Page (Solution - Educational Resources).html">Media</a>
-  <a href="HTML - Mini Game (Plus design elements).html">Mini Game</a>
+  <a href="HTML - Mini Game (Plus design elements).html">Mini Games</a>
   <a href="HTML - Facts on World Hunger Page.html">Facts on World Hunger</a>
-  <a href="#about">Covid19 and Hunger</a>
 </div>
 <head>
   </head>
-  <body onpageshow="randomVirus()">
+  <body onpageshow="randomVirus()" onload="showFlower()">
     <title>GirlCode Hackathon ENtry 2020</title>
     <script type="text/javascript" src="MiniGame.js"></script>
-    
-    <div class = "miniGame">
+    <script type="text/javascript" src="Growth.js"></script>
+    <div class = "miniGame" style="padding-left:16px">
 	
-      
-      <h5 style="text-align: center;">The Evil Little Corona Virus is trying to grow! It's up to you to choose the right actions to stop him from growing into a Big Scary Virus. </h5>      
+      <h1>The Evil Little Corona Virus </h1>
+      <h5>The Evil Little Corona Virus is trying to grow! It's up to you to choose the right actions to stop him from growing into a Big Scary Virus. </h5>      
       <canvas id="can1"> </canvas> 
         <p id="acti">
           <input type="image" id="aa" src="images/FaceMask.jpg" width="100px" height="75px" onclick="DoSomethingGood();"/>
@@ -114,10 +122,32 @@ input {
 </head>
 
 <p></p>
-<div >
-  
-  
-
+<div style="padding-left:16px; padding-bottom: 16px;">   
+      <h1>Farming Challenge</h1>
+      <h4>Objective: What's wrong with the plant? Choose the correct step to save the plant 
+      <h5>Teaches plant and crop care</h5>
+      <p></p>
+        <canvas id="mainCan"> </canvas> 
+        <canvas id="issueCan"> </canvas> <br>
+        <input type="button" value="Water plant" onclick="water()">
+        <input type="button" value="It's healthy" onclick="healthy()">
+        <input type="button" value="Only water again once soil is drier" onclick="dry()">
+        <input type="button" value="Use a safe pesticide" onclick="pest()">
+        <input type="button" value="Move plant to sunnier spot" onclick="sun()">
+        <input type="button" value="Apply iron rich fertiliser" onclick="iron()">
+        <input type="button" value="Apply nitrogen rich fertiliser" onclick="nitrogen()">
+        <input type="button" value="Apply potassium rich fertiliser" onclick="potassium()">
+        
+        <img src="images/HealthyLeaf.jpg" width="100px" height="75px" id="healthyLeaf"/>
+        <img src="images/Dehydration.jpg" width="100px" height="75px" id="dehydration"/>
+        <img src="images/IronDef.jpg" width="100px" height="75px" id="ironDef"/>
+        <img src="images/LackSun.jpg" width="100px" height="75px" id="lackSun"/>
+        <img src="images/NitrogenDef.jpg" width="100px" height="75px" id="nitrogenDef"/>
+        <img src="images/OverWater.jpg" width="100px" height="75px" id="overWater"/>
+        <img src="images/PestProblem.jpg" width="100px" height="75px" id="pestProblem"/>
+        <img src="images/PotassiumDef.jpg" width="100px" height="75px" id="potassiumDef"/>
+        <img src="images/Flower.jpg" width="100px" id="flower"/>
+        <img src="images/FlowerDead.jpg" width="100px" id="flowerDead"/>
 </div>
 
 </body>
