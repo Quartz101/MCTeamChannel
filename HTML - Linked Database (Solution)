@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #89D5D2;
+}
+
+.topnav a {
+  float: left;
+  color: #111111;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #e5f0fc;
+  color: #e5f0fc;
+}
+
+.topnav a.active {
+  background-color: #89D5D2;
+  color: #111111;
+}
+
+</style>
+</head>
+<body>
+
+
+
+<div class="topnav">
+    <b><a class="active" href="#home">Home Page</a><b/>
+  <a href="#news">Links for Individuals and investors</a>
+  <a href="#contact">Media</a>
+  <a href="#about">Facts on World Hunger</a>
+  <a href="#about">Covid19 and Hunger</a>
+</div>
+
+<div style="padding-left:16px">
+<picture>
+  <source media="(min-width:3050px)" srcset="C:\Users\CourtneyDubbCarGet\Desktop\empowa.JPG">
+  <source media="(min-width:165px)" srcset="C:\Users\CourtneyDubbCarGet\Desktop\empowa.JPG">
+  <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
+
+    <div class="charityList">
+      <h1> List of Charities </h1>
+      
+      <a href="https://www.forgood.co.za/"><img src="C:\Users\CourtneyDubbCarGet\Desktop\forgood-logo-black-200x100.jpg" width="200px" /> <br>forgood</a>: This is a great site if you don't know which charity you can or want to donate to. <br>
+      <a href="https://acfs.org.za/"><img src="iC:\Users\CourtneyDubbCarGet\Desktop\ACFS.jpg" width="200px" /> <br>ACFS Community Education and Feeding Scheme</a><br>
+      <a href="https://www.ladlesoflove.org.za/"><img src="C:\Users\CourtneyDubbCarGet\Desktop\ladelsoflove.jpg" width="200px" /> <br>Ladles of Love</a><br>
+      <a href="https://www.fflsa.org/"><img src="C:\Users\CourtneyDubbCarGet\Desktop\FoodForLife.jpg" width="200px" /> <br>FOOD FOR LIFE</a><br>
+      <a href="https://www.siyabongaafrica.org.za/"><img src="C:\Users\CourtneyDubbCarGet\Desktop\SiyaAfri.jpg" width="200px" /><br>Siyabonga Africa</a><br>
+      <a href="http://rahafrica.org/"><img src="C:\Users\CourtneyDubbCarGet\Desktop\RiseAgainstHunger.jpg" width="200px" /><br>Rise Against Hunger Africa</a><br>
+      <a href="https://www.thelunchboxfund.org/"><img src="C:\Users\CourtneyDubbCarGet\Desktop\TheLunchboxFund.jpg" width="200px" /><br>The Lunchbox Fund</a><br>
+      <a href="https://foodforwardsa.org/"><img src="C:\Users\CourtneyDubbCarGet\Desktop\Food.jpg" width="200px" /><br>FoodForward SA</a><br>
+    </div>
+	<div class="AgriSupplies">
+      <h1> Agricultural Supplies (Affordable for smallscale farming) </h1>
+      <p><a href="http://www.fao.org/3/y1860e/y1860e04.htm>FAO/a></p>
+      <p><a href="https://www.nda.agric.za/docs/Policy/policy98.htm>Agriculture Policy in South Africa</a></p>
+      <p><a href="http://www.scielo.org.za/scielo.php?script=sci_arttext&pid=S0301-603X2016000100003">Study done on limitations emerging farmer's face</a></p>
+      <p><a href="https://www.tralac.org/images/docs/6460/agriculture-in-africa-transformation-and-outlook.pdf>NEPAD - transformation and outlook in South Africa/Africa</a></p>
+      <p><a href="https://link.springer.com/article/10.1007/BF03179981/">Article -resources and nutrition on famr land/soil quality</a></p>
+      <p><a href="https://www.gov.za/issues/govt-programmes-economic-opportunities/land-agriculture?gclid=EAIaIQobChMI6abD6vX66gIVGLLtCh361AvLEAAYASAAEgIv2fD_BwE">Gov.ZA Resources</a></p>
+      <p><a href="https://www.agri-land.co.za/">Farmable land for sale</a></p>
+      <p><a href="http://www.safarmtraders.co.za/">Farmable land for sale</a></p>
+	  <p><a href="https://theangelnetwork.co.za/">The Angel Network</a></p>
+	  
+    </div>
+
+	<div class="Funding">
+      <h1> 	
+	Funding for community agricuture programs  South Africa </h1>
+      <p><a href="https://www.nda.agric.za/doaDev/sideMenu/cooperativeandenterprisedevelopment/docs/FUNDING%20ORGANIZATIONS%20LIST%20-%2009-03.pdf>Funding Organization - Agri /a></p>
+      <p><a href="https://bizconnect.standardbank.co.za/sector-news/agriculturearticles/grants,-funding-and-incentives-for-agriculture-in-south-africa.aspx>Standard Bank Agri Funding</a></p>
+      <p><a href="https://www.greenagri.org.za/tips-and-tools/funding-and-incentives/>Greenagri -funding and incentives for emerging farmers</a></p>
+      <p><a href="https://www.daff.gov.za/daffweb3/Programme/Comprehensive-Agricultural-Support-Programme>Daff.gov.za - funding (government)</a></p>
+      <p><a href="https://agribook.co.za/marketing-finance/finance-for-new-farmers-and-smmes/">Funds and marketing for SMME Sector</a></p>
+      <p><a href="https://www.idc.co.za/agro-processing-agriculture/">Agriculture and Agri-processing and funding</a></p>
+      <p><a href="hhttps://lima.org.za/">Lima-Farmer Support Programme</a></p>
+     
+	  
+    </div>
+	
+	
+  
+
+
+</body>
+</html>
+
+
+</div>
+
+</body>
+</html>
